@@ -10,23 +10,31 @@
     <title>COVID-19 Cases</title>
 </head>
 <body>
-    <main id="container">
-
-
-        <p>case for country</p>
-        <p id="country"></p>
-        <p>deaths</p>
-        <p id="deaths"></p>
-
-    </main>
-    <form>
+<div id="container">
+    <header id="header">
+        <h1>COVID-19 Tracker Website</h1>
+    </header><br><br>
+    
+    <form id="searchbox">
         <label> Country Name
             <input type="text" id="insert" placeholder="e.g. France">
             <input type="submit" value="Get COVID-19 Info" />
         </label>
-    </form>
-
-
+    </form><br><br>
     
+    <main id="content">
+        <p>Cases for Country</p>
+        <p id="country"></p>
+        <p>Number of Deaths</p>
+        <p id="deaths"></p>
+        <p>Confirmed Cases</p>
+        <p id="confirmed"></p>
+        <p>Recovered Cases</p>
+        <p id="recovered"></p>
+        <p>Population</p>
+        <p id="population"></p>
+
+    </main>
+</div>
 </body>
 </html>
