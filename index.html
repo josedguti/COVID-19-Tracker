@@ -10,31 +10,58 @@
     <title>COVID-19 Cases</title>
 </head>
 <body>
-<div id="container">
-    <header id="header">
-        <h1>COVID-19 Tracker Website</h1>
-    </header><br><br>
+
+    <div class="container">
+        <div class="main-img-container">
+        </div>
+        <header class="header">
+            <h1>COVID-19 Tracker Website</h1>
+        </header><br><br>
+        
     
     <form id="searchbox">
         <label> Country Name
             <input type="text" id="insert" placeholder="e.g. France">
-            <input type="submit" value="Get COVID-19 Info" />
+            <input type="submit" id="boxbox" value="GO" />
         </label>
     </form><br><br>
-    
-    <main id="content">
-        <p>Cases for Country</p>
-        <p id="country"></p>
-        <p>Number of Deaths</p>
-        <p id="deaths"></p>
-        <p>Confirmed Cases</p>
-        <p id="confirmed"></p>
-        <p>Recovered Cases</p>
-        <p id="recovered"></p>
-        <p>Population</p>
-        <p id="population"></p>
 
-    </main>
-</div>
+
+        <div class="squares">
+        
+            <div class="country"><br>
+                <h2>Country</h2><br><br><br>
+                <p id="country"></p><br>
+            </div>
+
+            <div class="deaths"><br>
+                <h2>Deaths</h2><br><br><br>
+                <p id="deaths"></p><br>
+            </div>
+            
+            <div class="confirmed"><br>
+                <h2>Confirmed</h2><br><br><br>
+                <p id="confirmed"></p><br>
+            </div>
+
+            <div class="recovered"><br>
+                <h2>Recovered</h2><br><br><br>
+                <p id="recovered"></p><br>
+            </div>
+
+            <div class="population"><br>
+                <h2>Population</h2><br><br><br>
+                <p id="population"></p><br>
+            </div>
+        </div>   <br><br><br> 
+        
+        <h3>For more information about the COVID-19 pandemic, visit the CDC website <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">here</a></h3>
+        
+    </div><br><br><br><br>
+
+    <footer id="foot">
+        <h3>COPYRIGHTS © ALL RIGHTS RESERVED 2021</h3>
+    </footer>
+
 </body>
 </html>

@@ -1,4 +1,6 @@
-# COVID 19 CASES
+
+
+# COVID 19 TRACKER
 
 A simple web app to track COVID-19 cases by country.
 
@@ -8,7 +10,7 @@ HTML5
 jQuery
 JS
 CSS3
-COVID-19 API
+COVID-19 API (https://github.com/M-Media-Group/Covid-19-API)
 Github pages (for deployment)
 
 
