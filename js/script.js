@@ -53,3 +53,12 @@ function render() {
     }
 }
 }); // IIFE closing statement
+
+// CHECK TOMORROW IF THIS CODE WORKS FOR MEDIA QUERIES FOR PHONE SCREEN SIZES
+
+// #collection {
+//     margin: 35px auto 0 auto;
+//     max-width: 860px;
+//     display: flex;
+//     flex-wrap: wrap; <--- this is how we can create that effect
+//     justify-content: center;

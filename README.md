@@ -11,7 +11,7 @@ A simple web application to track COVID-19 cases and stats by country.
 - JS
 - [jQuery](https://jquery.com/)
 - [COVID-19 API](https://github.com/M-Media-Group/Covid-19-API)
-- [Github](https://github.com/) (for back-up purposes)
+- [Github](https://github.com/) (for back-up and documentation purposes)
 - [Netlify](https://app.netlify.com/drop) (for deployment purposes)
 - [Google Fonts](https://fonts.google.com/)
 
