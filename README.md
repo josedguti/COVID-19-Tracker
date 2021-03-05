@@ -34,4 +34,4 @@ A simple web application to track COVID-19 cases and stats by country.
 
 ## 💣 Unresolved issues
 
-- When searching a country on the input field, first letter of the country must be entered manually in uppercase for the API to return the desired information, currently transforming the text to "capitalize" does not work.
+- When looking at the website from a mobile device, images and some content may not display, only material displayed will be the title, searchbox and content boxes.

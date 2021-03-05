@@ -28,9 +28,14 @@ $('form').on('submit', handleSubmit);
 function handleSubmit (ga) {
     ga.preventDefault();
 
-    const term = $input.val();
+    let term = $input.val();
+   
+    term = term.toLowerCase();
+
+    term = term.charAt(0).toUpperCase() + term.slice(1);
 
     $input.val("");
+    // console.log(term); testing
 
     $.ajax(BASE_URL + term)
     .then(function(data) {
@@ -53,12 +58,3 @@ function render() {
     }
 }
 }); // IIFE closing statement
-
-// CHECK TOMORROW IF THIS CODE WORKS FOR MEDIA QUERIES FOR PHONE SCREEN SIZES
-
-// #collection {
-//     margin: 35px auto 0 auto;
-//     max-width: 860px;
-//     display: flex;
-//     flex-wrap: wrap; <--- this is how we can create that effect
-//     justify-content: center;

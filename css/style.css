@@ -157,4 +157,16 @@ h3 {
         flex-wrap: wrap; 
         justify-content: center;
     }
+    h1 {
+        height: 180px;
+        padding-top: 10px;
+    }
+    
+    .main-img-container {
+        display: none;
+    }
+    h3 {
+        position: relative;
+        display: none;
+    }
 }
