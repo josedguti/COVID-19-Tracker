@@ -26,7 +26,7 @@ A simple web application to track COVID-19 cases and stats by country.
 
 ## 🔌 Getting started
 
-[Click](#) to get started and see the app online!
+[Click](https://covid-19-tracker-webapp-jd.netlify.app/) to get started and see the app online!
 
 ## 🛠 Future enhancements
 
