@@ -15,7 +15,7 @@ const BASE_URL = "https://covid-api.mmediagroup.fr/v1/cases?country=";
 const $country = $('#country');
 const $deaths = $('#deaths');
 const $confirmed = $('#confirmed')
-const $recovered = $('#recovered')
+const $capital_city = $('#recovered')
 const $population = $('#population')
 const $input = $('#insert');
 
@@ -53,7 +53,7 @@ function render() {
         $country.text(covidData.All.country);
         $deaths.text(covidData.All.deaths);
         $confirmed.text(covidData.All.confirmed);
-        $recovered.text(covidData.All.recovered);
+        $capital_city.text(covidData.All.capital_city);
         $population.text(covidData.All.population);
     }
 }
